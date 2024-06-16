@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Música</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #E26DFA;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #333;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .albums {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .album {
+            margin: 10px;
+            width: 200px;
+            text-align: center;
+        }
+        .album img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .album h3 {
+            color: #333;
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #E26DFA;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Música</h1>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="albums.html">Álbumes</a>
+        <a href="ARTISTAS.html">Artistas</a>
+            </nav>
+    <div class="container">
+        <h2>Álbumes Destacados</h2>
+        <div class="albums">
+            <div class="album">
+                <img src="album1.jpg" alt="Álbum 1">
+                <h3>Álbum 1</h3>
+                <p>Artista 1</p>
+            </div>
+            <div class="album">
+                <img src="album2.jpg" alt="Álbum 2">
+                <h3>Álbum 2</h3>
+                <p>Artista 2</p>
+            </div>
+            <div class="album">
+                <img src="album3.jpg" alt="Álbum 3">
+                <h3>Álbum 3</h3>
+                <p>Artista 3</p>
+            </div>
+            <div class="album">
+                <img src="album4.jpg" alt="Álbum 4">
+                <h3>Álbum 4</h3>
+                <p>Artista 4</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; Karla Valeria Amores Jain
+    </footer>
+</body>
+</html>
